@@ -1,0 +1,167 @@
+[
+  {
+    "screenId": "d710e502f875427caf1edd7265006141",
+    "screenTitle": "Play root frame - Star Lane Runner",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Resume game",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "Move player to lane 0",
+        "line": 179
+      },
+      {
+        "type": "button",
+        "label": "Move player to lane 1",
+        "line": 183
+      },
+      {
+        "type": "button",
+        "label": "Move player to lane 2",
+        "line": 187
+      },
+      {
+        "type": "button",
+        "label": "Start round",
+        "line": 198
+      },
+      {
+        "type": "button",
+        "label": "Collect the star",
+        "line": 203
+      },
+      {
+        "type": "button",
+        "label": "Restart round",
+        "line": 207
+      },
+      {
+        "type": "button",
+        "label": "Open settings",
+        "line": 219
+      },
+      {
+        "type": "button",
+        "label": "Open settings (Left)",
+        "line": 223
+      },
+      {
+        "type": "button",
+        "label": "Open settings (Center)",
+        "line": 227
+      },
+      {
+        "type": "button",
+        "label": "Open settings (Right)",
+        "line": 231
+      },
+      {
+        "type": "button",
+        "label": "Open settings (Collect)",
+        "line": 235
+      },
+      {
+        "type": "button",
+        "label": "Resume game (Lane 0)",
+        "line": 246
+      },
+      {
+        "type": "button",
+        "label": "Resume game (Lane 1)",
+        "line": 250
+      },
+      {
+        "type": "button",
+        "label": "Resume game (Lane 2)",
+        "line": 254
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Resume game",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "Move player to lane 0",
+        "line": 179
+      },
+      {
+        "type": "button",
+        "label": "Move player to lane 1",
+        "line": 183
+      },
+      {
+        "type": "button",
+        "label": "Move player to lane 2",
+        "line": 187
+      },
+      {
+        "type": "button",
+        "label": "Start round",
+        "line": 198
+      },
+      {
+        "type": "button",
+        "label": "Collect the star",
+        "line": 203
+      },
+      {
+        "type": "button",
+        "label": "Restart round",
+        "line": 207
+      },
+      {
+        "type": "button",
+        "label": "Open settings",
+        "line": 219
+      },
+      {
+        "type": "button",
+        "label": "Open settings (Left)",
+        "line": 223
+      },
+      {
+        "type": "button",
+        "label": "Open settings (Center)",
+        "line": 227
+      },
+      {
+        "type": "button",
+        "label": "Open settings (Right)",
+        "line": 231
+      },
+      {
+        "type": "button",
+        "label": "Open settings (Collect)",
+        "line": 235
+      },
+      {
+        "type": "button",
+        "label": "Resume game (Lane 0)",
+        "line": 246
+      },
+      {
+        "type": "button",
+        "label": "Resume game (Lane 1)",
+        "line": 250
+      },
+      {
+        "type": "button",
+        "label": "Resume game (Lane 2)",
+        "line": 254
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 15,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]

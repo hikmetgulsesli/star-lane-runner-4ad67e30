@@ -1,0 +1,655 @@
+{
+  "generatedAt": "2026-11-17T07:46:55.397Z",
+  "screenCount": 1,
+  "screens": {
+    "d710e502f875427caf1edd7265006141": {
+      "screenId": "d710e502f875427caf1edd7265006141",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-row",
+          "classes": [
+            "flex",
+            "items-center",
+            "justify-between",
+            "pb-4",
+            "border-b",
+            "border-slate-800"
+          ],
+          "childCount": 4
+        },
+        {
+          "tag": "main",
+          "layout": "grid",
+          "classes": [
+            "flex-1",
+            "grid",
+            "grid-cols-1",
+            "lg:grid-cols-12",
+            "gap-6",
+            "mt-6"
+          ],
+          "childCount": 31
+        },
+        {
+          "tag": "footer",
+          "layout": "block",
+          "classes": [
+            "mt-6",
+            "bg-slate-900/90",
+            "border",
+            "border-slate-800",
+            "rounded-2xl",
+            "p-6",
+            "backdrop-blur-md",
+            "shadow-2xl"
+          ],
+          "childCount": 11
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Resume game",
+          "classes": [
+            "w-full",
+            "py-2.5",
+            "px-4",
+            "rounded-xl",
+            "bg-gradient-to-r",
+            "from-indigo-600",
+            "to-cyan-600",
+            "hover:from-indigo-500",
+            "hover:to-cyan-500",
+            "text-white",
+            "font-medium",
+            "text-xs",
+            "tracking-wider",
+            "uppercase",
+            "shadow-md",
+            "shadow-indigo-600/30",
+            "transition-all",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-indigo-400"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move player to lane 0",
+          "classes": [
+            "py-2",
+            "px-2",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-200",
+            "text-xs",
+            "font-medium",
+            "border",
+            "border-slate-700",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move player to lane 1",
+          "classes": [
+            "py-2",
+            "px-2",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-200",
+            "text-xs",
+            "font-medium",
+            "border",
+            "border-slate-700",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move player to lane 2",
+          "classes": [
+            "py-2",
+            "px-2",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-200",
+            "text-xs",
+            "font-medium",
+            "border",
+            "border-slate-700",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Start round",
+          "classes": [
+            "w-full",
+            "py-2",
+            "px-3",
+            "rounded-lg",
+            "bg-cyan-600",
+            "hover:bg-cyan-500",
+            "text-white",
+            "font-semibold",
+            "text-xs",
+            "transition",
+            "shadow-md",
+            "shadow-cyan-600/30"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Collect the star",
+          "classes": [
+            "py-2",
+            "px-2",
+            "rounded-lg",
+            "bg-amber-500",
+            "hover:bg-amber-400",
+            "text-slate-950",
+            "font-bold",
+            "text-xs",
+            "transition",
+            "shadow-md",
+            "shadow-amber-500/20"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart round",
+          "classes": [
+            "py-2",
+            "px-2",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-200",
+            "text-xs",
+            "font-medium",
+            "border",
+            "border-slate-700",
+            "transition"
+          ],
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings",
+          "classes": [
+            "col-span-2",
+            "py-1.5",
+            "px-2",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-300",
+            "text-xs",
+            "font-medium",
+            "border",
+            "border-slate-700",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Left)",
+          "classes": [
+            "py-1",
+            "px-1.5",
+            "rounded-lg",
+            "bg-slate-850",
+            "hover:bg-slate-750",
+            "text-slate-400",
+            "text-[11px]",
+            "border",
+            "border-slate-800",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Center)",
+          "classes": [
+            "py-1",
+            "px-1.5",
+            "rounded-lg",
+            "bg-slate-850",
+            "hover:bg-slate-750",
+            "text-slate-400",
+            "text-[11px]",
+            "border",
+            "border-slate-800",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Right)",
+          "classes": [
+            "py-1",
+            "px-1.5",
+            "rounded-lg",
+            "bg-slate-850",
+            "hover:bg-slate-750",
+            "text-slate-400",
+            "text-[11px]",
+            "border",
+            "border-slate-800",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Collect)",
+          "classes": [
+            "py-1",
+            "px-1.5",
+            "rounded-lg",
+            "bg-amber-600/30",
+            "hover:bg-amber-600/40",
+            "text-amber-200",
+            "text-[11px]",
+            "border",
+            "border-amber-700/40",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume game (Lane 0)",
+          "classes": [
+            "py-1.5",
+            "px-2",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-300",
+            "text-xs",
+            "font-medium",
+            "border",
+            "border-slate-700",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume game (Lane 1)",
+          "classes": [
+            "py-1.5",
+            "px-2",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-300",
+            "text-xs",
+            "font-medium",
+            "border",
+            "border-slate-700",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume game (Lane 2)",
+          "classes": [
+            "py-1.5",
+            "px-2",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-300",
+            "text-xs",
+            "font-medium",
+            "border",
+            "border-slate-700",
+            "transition"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Command & Navigation Console 14 SLOTS MOUNTED",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Lane Positioning Move player to lane 0",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Primary Operations Start round",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Settings Access Points Open settings",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Console Resume Relays Resume game (Lane 0)",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [
+        {
+          "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23facc15'><path d='M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 ",
+          "alt": "Star"
+        }
+      ],
+      "cssVars": {},
+      "colorPalette": {},
+      "fonts": [],
+      "layoutHints": {
+        "gridCols": 1,
+        "flexDirection": "col",
+        "gap": "6"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Resume game",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move player to lane 0",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move player to lane 1",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move player to lane 2",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Start round",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Collect the star",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart round",
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Left)",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Center)",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Right)",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Collect)",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume game (Lane 0)",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume game (Lane 1)",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume game (Lane 2)",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Command & Navigation Console 14 SLOTS MOUNTED",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Lane Positioning Move player to lane 0",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Primary Operations Start round",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Settings Access Points Open settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Console Resume Relays Resume game (Lane 0)",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "Command & Navigation Console 14 SLOTS MOUNTED",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Lane Positioning Move player to lane 0",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Move player to lane 1",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Move player to lane 2",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Primary Operations Start round",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Collect the star",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Restart round",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Settings Access Points Open settings",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Left)",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Center)",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Right)",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Open settings (Collect)",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Console Resume Relays Resume game (Lane 0)",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Resume game (Lane 1)",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Resume game (Lane 2)",
+          "icon": null,
+          "active": false
+        }
+      ],
+      "title": "Play root frame - Star Lane Runner"
+    }
+  }
+}
